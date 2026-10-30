@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <GM_MugirlFix>Mugirl: prevent automatic dismount for minor injuries</GM_MugirlFix>
+  <GM_MugirlFixHelp>Changes only the medical-rest reason inside Mugirl automatic dismount. Adjust the health, bleeding and pain limits above. Defaults: above 80% health, at most 5% bleeding per day, below 30% pain. Disease, labor, surgery, other medical reasons, death, downing, fire, mental state, hunger, fatigue, ropes, and manual/emergency dismount retain original behavior. Does not change medical needs or actual damage. Only applies when Mugirl is installed.</GM_MugirlFixHelp>
+  <GT_Tab1>Mugirl riding</GT_Tab1>
+  <GT_Health>Medical dismount health threshold (%, at or below)</GT_Health>
+  <GT_Bleeding>Tolerated bleeding (percent per day; medical dismount above this)</GT_Bleeding>
+  <GT_Pain>Medical dismount pain threshold (%, at or above)</GT_Pain>
+  <GT_ResetTab>Reset to defaults</GT_ResetTab>
+</LanguageData>

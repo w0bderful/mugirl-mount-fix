@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <GM_MugirlFix>Mugirl: 가벼운 부상으로 인한 자동 하차 방지</GM_MugirlFix>
+  <GM_MugirlFixHelp>Mugirl 자동 하차 검사 중 치료 휴식 사유만 완화합니다. 위에서 건강·출혈·통증 기준을 조절할 수 있습니다. 기본값은 건강 80% 초과·출혈 하루 5% 이하·통증 30% 미만입니다. 질병·출산·수술·기타 치료 사유와 사망·쓰러짐·화재·정신이상·배고픔·피로·밧줄 및 수동/긴급 하차는 원본을 따릅니다. 치료 필요성이나 실제 피해량은 바꾸지 않습니다. Mugirl 설치 시에만 적용됩니다.</GM_MugirlFixHelp>
+  <GT_Tab1>Mugirl 탑승</GT_Tab1>
+  <GT_Health>의료 사유로 자동 하차하는 건강 비율 (%, 이 값 이하)</GT_Health>
+  <GT_Bleeding>탑승 중 허용하는 출혈 (하루 %, 이 값 초과 시 의료 하차)</GT_Bleeding>
+  <GT_Pain>의료 사유로 자동 하차하는 통증 (%, 이 값 이상)</GT_Pain>
+  <GT_ResetTab>기본값 복원</GT_ResetTab>
+</LanguageData>

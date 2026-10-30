@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Mugirl Mount Fix</name>
+  <author>w0bderful</author>
+  <packageId>w0bderful.mugirlmountfix</packageId>
+  <modVersion>3.0.0</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>HAR.MugirlRace</packageId>
+      <displayName>Mugirl Race</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3578882219</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>HAR.MugirlRace</li>
+  </loadAfter>
+  <description>Prevents Mugirl riders from automatically dismounting solely because of minor injuries.
+
+Defaults: riders may remain mounted when overall health is above 80%, bleeding is at most 5% per day, and pain is below 30%, provided no other medical cause requires dismounting. The correction and each threshold are configurable.
+
+Only the medical-rest check in Mugirl's automatic dismount decision is replaced. Manual dismounting, other automatic or emergency reasons, labor, immunity-related medical needs, surgery, and other tendable conditions retain their original handling. Actual damage, healing, and medical needs are unchanged.
+
+Settings: Options &gt; Mod settings &gt; Mugirl Mount Fix. Load after Harmony and Mugirl Race.</description>
+</ModMetaData>
